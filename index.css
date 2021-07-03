@@ -403,14 +403,6 @@ section {
     color: lightseagreen;
 }
 
-
-/* j'ai ajouté ça, enfait tu t'es foiré avec tes nom de divs,
-mdrrr, et le width: calc(33% - 30px); il va faire en sorte que
-une petite box prennent une taille de 33%-30px donc en gros
-c'est pour permettre d'en aligner 3 tu vois? vu que la width c'est
-100% de base, alors 100%/3 = 33 % et qq pixels, et tu vois que c bien
-aligner après  */
-
 .projets .projets-univ {
     display:flex;
     flex-wrap: wrap;
@@ -452,6 +444,47 @@ aligner après  */
     color: lightseagreen;
 }
 
+.projets .projet-carte img{
+    transition: all 0.3s ease;
+    margin: 10px 0;
+}
+
+.projets .projet-carte img:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Partie slidershow projets */
 
 .slider {
@@ -468,56 +501,40 @@ aligner après  */
     animation: glisse 30s infinite;
 
 }
-.slide img{
+.slide1 img{ /*taille screens : 1680*1010*/
     float: left;
-    width: 700px; /*1680*1010*/
+    width: 700px;
     height: 505px;
+}
+
+.slide2 img{ /*taille screens : 1680*1010*/
+    float: left;
+    width: 700px;
 }
 
 @keyframes glisse {
     0% {
         transform: translateX(0);
     }
-    5% {
+    10% {
         transform: translateX(0);
     }
-    15% {
+    25% {
         transform: translateX(-700px);
     }
-    20% {
+    40% {
         transform: translateX(-700px);
     }
-    30% {
+    55% {
         transform: translateX(-1400px);
     }
-    35% {
+    70% {
         transform: translateX(-1400px);
     }
-    45% {
+    85% {
         transform: translateX(-2100px);
-    }
-    50% {
-        transform: translateX(-2100px);
-    }
-    60% {
-        transform: translateX(-2800px);
-    }
-    65% {
-        transform: translateX(-2800px);
-    }
-    75% {
-        transform: translateX(-3500px);
-    }
-    80% {
-        transform: translateX(-3500px);
-    }
-    90% {
-        transform: translateX(-4200px);
-    }
-    99% {
-        transform: translateX(-4200px);
     }
     100% {
-        transform: translateX(0);
+        transform: translateX(-2100px);
     }
 }
