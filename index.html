@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Yassine Ahddak - Portfolio">
+    <!-- lien vers fichier CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Icones -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Yassine - Portfolio</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+
+
+<body>
+<nav class="navbar">
+    <div class="max-width">
+        <div class="logo"><a href="#" id="navNom">Yassine<span>Ahddak</span></a></div>
+        <ul class="menu">
+            <li>
+                <a href="#accueil" class="navTab" id="nav-accueil">Accueil</a>
+            </li>
+            <li>
+                <a href="#projets" class="navTab" id="nav-projets">Projets</a>
+            </li>
+            <li>
+                <a href="#competences" class="navTab" id="nav-competences">Compétences</a>
+            </li>
+            <li>
+                <a href="#experiences" class="navTab" id="nav-experiences">Expériences</a>
+            </li>
+            <li>
+                <a href="#contact" class="navTab" id="nav-contact">Contact</a>
+            </li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<!--accueil texte + photo-->
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="contenu">
+            <div class="colonne-gauche">
+                <div class="text1">
+                    <p>Etudiant en DUT Informatique et passioné par la programmation,
+                        je suis à la recherche d'une alternance en développement informatique.
+                        <br><br>
+                        <strong>Durée :</strong> 1 an
+                        <br>
+                        <strong>Rythme :</strong> 15 jours en entreprise / 15 jours à l'école
+                        <br>
+                        <strong>Localisation :</strong> Ile-De-France
+                        <br><br>
+                        Vous pouvez consulter <a href="docs/CV_Yassine_AHDDAK.pdf" alt="Mon CV" class="lien-text">mon CV</a>
+                        , mes <a href="#competences" class="lien-text">compétences</a> ou encore <a href="#contact" class="lien-text">envoyer un message</a>.
+                        <br><br>
+                    </p>
+                    <div class="network">
+                        <div class="logo-reseaux">
+                            <p><strong>Mon compte LinkedIn : </strong>
+                                <a href="https://www.linkedin.com/in/yassine-ahddak/">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="logo-reseaux">
+                            <p><strong>Mon compte Github :  </strong>
+                                <a href="https://github.com/yas93">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="colonne-droite">
+                <img src="img/yassine_le_bg.png" alt="Ma photo">
+            </div>
+        </div>
+        <div class="scroll" id="scroll">
+            <div class="btn-scroll">
+                <a href="#projets"><i class="fas fa-mouse"></i></a>
+            </div>
+            <div class="txt-btn-scroll">
+                <p>Scroll down</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Partie Projets universitaires et personnel -->
+<section class="projets" id="projets">
+    <div class="max-width">
+        <h2 class="titre"><a href="#projets"> Mes Projets </a></h2>
+        <div class="projets-univ">
+            <div class="projet1">
+                <div class="projet-carte">
+                    <p class="titre-projets">Java - Jeu d'échecs</p>
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide"><img src="img/java-screen1.PNG" alt="Lancement programme"/></div>
+                            <div class="slide"><img src="img/java-screen2.PNG" alt="Début Partie" /></div>
+                            <div class="slide"><img src="img/java-screen3.PNG" alt="Akira Toriyama"/></div>
+                        </div>
+                    </div>
+                    <p class="description-projets">
+                        Projet universitaire consistant en la création d’un jeu d’échecs en binôme.
+                        <br>
+                        <strong>1ère étape :</strong> Réalisation des diagrammes de classes et de cas d’utilisation.
+                        <br>
+                        <strong>2ème étape :</strong> Programmation du jeu d’échecs en vue d’un affichage sur console.
+                        <br>
+                        <strong>3ème étape (facultative) :</strong> Programmer l’interface graphique du jeu
+                        d’échecs avec la bibliothèque Swing.
+                        <br>
+                    </p>
+                    <a class="btnprojets" href="img/accueil.jpg" target="_blank">Afficher</a>
+                    <a class="btnprojets" href="https://github.com/yas93/Jeu_Echec_Java" target="_blank">Code</a>
+                </div>
+            </div>
+            <div class="projet1">
+                <div class="projet-carte">
+                    <p class="titre-projets">HTML | CSS - Site Web secondaire Maison de la Culture du Japon à Paris</p>
+                    <p class="description-projets">
+                        Projet universitaire consistant en la création d'un site web secondaire de la
+                        Maison de La Culture du Japon à Paris axé sur la jeunesse.
+                    </p>
+                    <a class="btnprojets" href="img/accueil.jpg" target="_blank">Afficher</a>
+                    <a class="btnprojets" href="https://github.com/yas93/Jeu_Echec_Java" target="_blank">Code</a>
+                </div>
+            </div>
+            <div class="projet1">
+                <div class="projet-carte">
+                    <p class="titre-projets">Python - Jeu d'échecs</p>
+                    <p class="description-projets">
+                        Projet universitaire réalisé en binôme et dont le but était de créer un jeu
+                        d’échecs complet où il sera possible de jouer sur un Terminal.
+                        <br>
+                        <strong>2ème étape (facultative) :</strong> Réalisation d'une interface graphique grâce à Tkinter.
+                    </p>
+                    <a class="btnprojets" href="img/accueil.jpg" target="_blank">Afficher</a>
+                    <a class="btnprojets" href="https://github.com/yas93/Jeu_Echec_Java" target="_blank">Code</a>
+                </div>
+            </div>
+            <div class="projet1">
+                <p class="titre-projets">Jeu d'échecs</p>
+                <p class="description-projets">
+                    Projet universitaire consistant en la création d’un jeu d’échecs en binôme.
+                    <br>
+                    <strong>1ère étape :</strong> Réalisation des diagrammes de classes et de cas d’utilisation.
+                    <br>
+                    <strong>2ème étape :</strong> Programmation du jeu d’échecs en vue d’un affichage sur console.
+                    <br>
+                    <strong>3ème étape (facultative) :</strong> Programmer l’interface graphique du jeu
+                    d’échecs avec la bibliothèque Swing.
+                </p>
+            </div>
+        </div>
+        <div class="projets-perso">
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
