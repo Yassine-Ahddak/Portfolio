@@ -382,14 +382,13 @@ section {
 }
 
 .projets{
-    background-color: #444444;
+    background-color: whitesmoke;
     text-align: center;
 }
 
 .projets .max-width{
     max-width: 1500px;
     padding: 0 80px;
-    margin:auto;
 }
 
 .projets .titre a{
@@ -398,7 +397,9 @@ section {
     font-size: 1.3em;
 }
 
-
+.projets .projet-carte p{
+    color: whitesmoke;
+}
 .projets .projets-univ strong, .projets-perso strong{
     color: lightseagreen;
 }
@@ -412,8 +413,8 @@ section {
 }
 
 .projets .projets-univ .projet1 {
-    width: calc(50% - 30px); /*à modifier pour ajouter/retirer des projets sur la même ligne*/
-    background: whitesmoke;
+    width: calc(33% - 30px); /*à modifier pour ajouter/retirer des projets sur la même ligne*/
+    background: #444444;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -423,6 +424,7 @@ section {
 .projets .titre-projets{
     color: lightseagreen;
     font-size: 1.3em;
+    margin-bottom: 20px;
 }
 
 .projets .btnprojets{
@@ -440,10 +442,10 @@ section {
 .projets .btnprojets:hover{
     transform: scale(1.05);
     background-color: transparent;
-    border-color: #444444;
+    border-color: lightseagreen;
     color: lightseagreen;
 }
-
+/*
 .projets .projet-carte img{
     transition: all 0.3s ease;
     margin: 10px 0;
@@ -451,7 +453,7 @@ section {
 
 .projets .projet-carte img:hover{
     transform: scale(1.05);
-}
+}*/
 
 
 
