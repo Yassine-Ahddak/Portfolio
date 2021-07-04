@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -131,7 +132,7 @@ section {
     padding: 100px 0;
 }
 .home {
-    padding : 175px 0;
+    padding-top : 175px;
 }
 .home .contenu {
     display:flex;
@@ -205,7 +206,14 @@ section {
         margin : 20px 0;
         font-size:25px;
     }
-
+    .projets .projets-univ .projet1 {
+        width: calc(50% - 30px); /*à modifier pour ajouter/retirer des projets sur la même ligne*/
+        background: #555;
+        text-align: center;
+        border-radius: 6px;
+        padding: 20px 25px;
+        margin-bottom: 15px;
+    }
 
 
 }
@@ -283,7 +291,6 @@ section {
 .home, .photo{
     align-items: center;
 }
-
 
 .network{
     display: flex;
@@ -382,19 +389,20 @@ section {
 }
 
 .projets{
-    background-color: whitesmoke;
+    background-color: rgba(19, 20, 22, 0.92);
     text-align: center;
 }
 
 .projets .max-width{
     max-width: 1500px;
-    padding: 0 80px;
 }
 
 .projets .titre a{
-    color: rgb(10, 107, 218);
+    color: whitesmoke;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    /*font-family: 'Tourney', cursive;*/
+    font-family: 'Otomanopee One', sans-serif;
 }
 
 .projets .projet-carte p{
@@ -414,11 +422,19 @@ section {
 
 .projets .projets-univ .projet1 {
     width: calc(33% - 30px); /*à modifier pour ajouter/retirer des projets sur la même ligne*/
-    background: #444444;
+    background: #555;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.projets .projet-carte{
+    transition: all 0.3s ease;
+}
+
+.projets .projet-carte:hover{
+    transform: scale(1.05);
 }
 
 .projets .titre-projets{
