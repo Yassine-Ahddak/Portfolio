@@ -9,7 +9,8 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: rgba(19, 20, 22, 0.92);
+    /*background-color: rgba(19, 20, 22, 0.92);*/
+    background-color: #536878;
     /*background-image: url("img/accueil3.jpg");
     background-position: 50% 100%;*/
 }
@@ -64,7 +65,8 @@ section {
 }
 
 .navbar.sticky {
-    background: rgb(10, 107, 218);
+    /*background: rgb(10, 107, 218);*/
+    background: #708090;
     padding : 15px 0;
 
 }
@@ -83,7 +85,8 @@ section {
 }
 
 .navbar .logo a span{
-    color: rgb(10, 107, 218);
+    /*color: rgb(10, 107, 218);*/
+    color: lightseagreen;
     transition: all 0.3s ease;
 }
 
@@ -113,11 +116,13 @@ section {
 }
 
 .navbar .menu li a:hover {
-    color: rgb(10, 107, 218);
+    /*color: rgb(10, 107, 218);*/
+    color: lightseagreen;
 }
 
 .navbar.sticky .menu li a:hover {
-    color:#444444;
+    /*color:#444444;*/
+    color: lightseagreen;
 }
 
 /* menu boutton */
@@ -160,7 +165,7 @@ section {
 
 .home .contenu {
     border: 2px solid #444;
-    background-color: #444;
+    background-color: #36454f;
     padding: 30px;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -171,7 +176,7 @@ section {
 }
 
 
-
+/* Responsivité */
 
 @media (max-width: 948px) {
     .max-width {
@@ -206,16 +211,6 @@ section {
         margin : 20px 0;
         font-size:25px;
     }
-    .projets .projets-univ .projet1 {
-        width: calc(50% - 30px); /*à modifier pour ajouter/retirer des projets sur la même ligne*/
-        background: #555;
-        text-align: center;
-        border-radius: 6px;
-        padding: 20px 25px;
-        margin-bottom: 15px;
-    }
-
-
 }
 
 @media (max-width: 690px) {
@@ -257,36 +252,9 @@ section {
 }
 
 .home .text1 p strong{
-    color: rgb(10, 107, 218);
+    /*color: rgb(10, 107, 218);*/
+    color: #708090;
 }
-
-
-/*
-.home .text2{
-    padding: 13px;
-    background-color: rgb(57, 119, 235);
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 2rem;
-    transition: all 0.3s ease;
-}
-.home .text2:hover {
-    transform: scale(1.05);
-}*/
-/*
-.home .text3{
-    padding: 15px;
-    background-color: #1264db;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 2rem;
-    transition: all 0.3s ease;
-}
-.home .text3:hover {
-    transform: scale(1.05);
-}*/
 
 .home, .photo{
     align-items: center;
@@ -309,11 +277,13 @@ section {
 }
 
 .home .logo-reseaux:hover{
-    color: rgb(10, 107, 218);
+    /*color: rgb(10, 107, 218);*/
+    color: lightseagreen;
 }
 
 .home .logo-reseaux p strong{
-    color: rgb(10, 107, 218);
+    /*color: rgb(10, 107, 218);*/
+    color: #708090;
 }
 
 .home .logo-reseaux p i{
@@ -338,7 +308,8 @@ section {
 }
 
 .scroll .txt-btn-scroll{
-    color: rgb(10, 107, 218);
+    /*color: rgb(10, 107, 218);*/
+    color: #708090;
     font-size: 25px;
 }
 
@@ -389,7 +360,8 @@ section {
 }
 
 .projets{
-    background-color: rgba(19, 20, 22, 0.92);
+    /*background-color: rgba(19, 20, 22, 0.92);*/
+    background-color: 	#36454f;
     text-align: center;
 }
 
@@ -401,8 +373,8 @@ section {
     color: whitesmoke;
     text-align: center;
     font-size: 1.5em;
-    /*font-family: 'Tourney', cursive;*/
     font-family: 'Otomanopee One', sans-serif;
+    margin-bottom: 30px;
 }
 
 .projets .projet-carte p{
@@ -422,11 +394,23 @@ section {
 
 .projets .projets-univ .projet1 {
     width: calc(33% - 30px); /*à modifier pour ajouter/retirer des projets sur la même ligne*/
-    background: #555;
+    background: #536878;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1450px) {
+    .projets .projets-univ .projet1 {
+        width: calc(50% - 30px);
+    }
+}
+
+@media (max-width: 768px) {
+    .projets .projets-univ .projet1 {
+        width: calc(100% - 30px);
+    }
 }
 
 .projets .projet-carte{
@@ -445,7 +429,7 @@ section {
 
 .projets .btnprojets{
     display: inline-block;
-    background: #444444;
+    background: lightseagreen;
     color: ghostwhite;
     font-size: 15px;
     margin-top: 10px;
@@ -473,14 +457,71 @@ section {
 
 
 
+/*====== Partie compétences =======*/
+.competences .max-width{
+    max-width: 1500px;
+}
 
+.competences img{
+    width: 48px;
+    height: 48px;
+}
 
+.competences .titre2{
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.competences .liste-competences{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.competences h2 a{
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Otomanopee One', sans-serif;
+}
 
+.competences .competence{
+    margin: 15px;
+    text-align: center;
+}
 
+.competences .text-competences{
+    color: whitesmoke;
+}
 
+.motivation{
+    padding: 10px;
+    /*background-color: rgb(80, 160, 206);*/
+    color: white;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
 
+/*===== Partie Formations ======*/
+.formations .max-width{
+    max-width: 1500px;
+}
+
+.formations{
+    background-color: #36454f;
+}
+.formations .titre3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formations h2 a{
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Otomanopee One', sans-serif;
+}
 
 
 
