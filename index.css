@@ -464,26 +464,72 @@ section {
 }
 
 .competences .titre-partie{
-    color : whitesmoke;
+    background-color: var(--gris-clair);
+    color: whitesmoke;
     font-size: 1.3em;
     margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .competences .partie-web{
-    background-color: var(--gris-clair);
+    background-color: var(--bleu-fonce);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .competences .partie-donnee{
-    background-color: var(--gris-clair);
+    background-color: var(--bleu-fonce);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.competences .prog{
+    background-color: var(--bleu-fonce);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.competences .logiciel{
+    background-color: var(--bleu-fonce);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.competences .competence_autres{
+    background-color: var(--bleu-fonce);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.competences .partie-web, .partie-donnee, .prog, .logiciel, .competence_autres{
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.competences .partie-web:hover, .partie-donnee:hover, .prog:hover, .logiciel:hover,
+.competence_autres:hover
+{
+    transform: scale(1.05);
 }
 
 
