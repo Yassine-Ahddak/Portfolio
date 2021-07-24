@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 :root{
     --bleu-fonce: #36454f;
     --bleu-moyen: #536878;
@@ -317,6 +318,22 @@ section {
     transform: scale(1.05);
 }
 
+
+
+/*==========Partie présentation==============*/
+.motivation{
+    padding: 10px;
+    /*background-color: rgb(80, 160, 206);*/
+    color: white;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+
+
+
+/*===========Partie projets==============*/
 .projets{
     /*background-color: rgba(19, 20, 22, 0.92);*/
     background-color: 	var(--bleu-fonce);
@@ -331,7 +348,8 @@ section {
     color: whitesmoke;
     text-align: center;
     font-size: 1.5em;
-    font-family: 'Otomanopee One', sans-serif;
+    /*font-family: 'Otomanopee One', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 30px;
 }
 
@@ -418,7 +436,7 @@ section {
 .presentation h2 a{
     color: whitesmoke;
     font-size: 1.5em;
-    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -451,7 +469,7 @@ section {
 .competences h2 a{
     color: whitesmoke;
     font-size: 1.5em;
-    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .competences .competence{
@@ -464,11 +482,11 @@ section {
 }
 
 .competences .titre-partie{
-    background-color: var(--gris-clair);
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #536878;
     font-size: 1.3em;
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -534,19 +552,9 @@ section {
 
 
 
-.motivation{
-    padding: 10px;
-    /*background-color: rgb(80, 160, 206);*/
-    color: white;
-    text-align: left;
-    vertical-align: middle;
-    font-size: 1.3em;
-    margin-top: 30px;
-}
-
 /*===== Partie Formations ======*/
 .formations .max-width{
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 .formations{
@@ -560,12 +568,36 @@ section {
 .formations h2 a{
     color: whitesmoke;
     font-size: 1.5em;
-    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
+.formations .liste-formations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.formations .dut_formation{
+    background-color: var(--bleu-moyen);
+    color: whitesmoke;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    float: center;
+    font-size: 1.3em;
+}
 
+.formations .dut_formation .img_gauche{
+    width: 48px;
+    height: 48px;
+    float: center;
+}
 
+.formations .dut_formation p{
+    text-align: center;
+}
 
 
 
