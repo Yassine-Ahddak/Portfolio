@@ -88,7 +88,7 @@ section {
 }
 
 .navbar.sticky .logo a span {
-    color:white;
+    color:lightseagreen;
 
 }
 
@@ -133,7 +133,7 @@ section {
     color: lightseagreen;
 }
 
-/* menu boutton */
+/* menu bouton */
 .menu-btn {
     color:white;
     font-size : 23px;
@@ -579,28 +579,44 @@ section {
 }
 
 .formations .dut_formation{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--bleu-moyen);
     color: whitesmoke;
     padding: 20px;
     margin: 15px;
     border-radius: 10px;
     text-align: center;
-    float: center;
     font-size: 1.3em;
 }
 
 .formations .dut_formation .img_gauche{
     width: 48px;
     height: 48px;
-    float: center;
 }
 
-.formations .dut_formation p{
-    text-align: center;
+.formations .dut_formation #img_droite{
+    width: 48px;
+    height: 48px;
 }
 
+.formations .dut_formation #clic_img_droite{
+    display: none;
+}
 
-
+.formations .zone_plus{
+    /*display: none;*/
+    padding: 20px;
+    margin-top: -25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: whitesmoke;
+}
 
 
 
