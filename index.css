@@ -597,17 +597,19 @@ section {
     height: 48px;
 }
 
-.formations .dut_formation #img_droite{
+.formations .dut_formation .img_droite{
     width: 48px;
     height: 48px;
 }
 
-.formations .dut_formation #clic_img_droite{
+.formations .dut_formation .clic_img_droite{
     display: none;
+    width: 48px;
+    height: 48px;
 }
 
 .formations .zone_plus{
-    /*display: none;*/
+    display: none;
     padding: 20px;
     margin-top: -25px;
     margin-left: 15px;
@@ -617,6 +619,19 @@ section {
     border-top-right-radius: 0;
     background-color: whitesmoke;
 }
+
+.formations .zone_plus .show{
+    display: block;
+    padding: 20px;
+    margin-top: -25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: whitesmoke;
+}
+
 
 
 
