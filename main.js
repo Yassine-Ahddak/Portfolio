@@ -27,29 +27,36 @@ $(document).ready(function () {
 
     const plus = document.getElementsByClassName("dut_formation");
     const zonePlus = document.getElementsByClassName("zone_plus");
-    const imgLess = document.getElementsByClassName("clic_img_droite");
-    const imgDroite = document.getElementsByClassName("img_droite");
+    const imgLess = document.getElementsByClassName("img_moins");
+    const imgDroite = document.getElementsByClassName("img_plus");
+    let estOuvert = false;
+    let estOuvert2 = false;
 
     plus[0].addEventListener("click", () =>{
-        zonePlus[0].style.display = "block";
-        imgDroite[0].style.display="none";
-        imgLess[0].style.display="block";
-    })
-
-    plus[1].addEventListener("click", () =>{
-        zonePlus[1].style.display = "block";
-        imgDroite[1].style.display="none";
-        imgLess[1].style.display="block";
-    })
-
-    if((zonePlus[0].style.display = "block") === true){
-        plus[0].addEventListener("click", () =>{
+        estOuvert = !estOuvert;
+        if(estOuvert){
+            zonePlus[0].style.display = "block";
+            imgDroite[0].style.display="none";
+            imgLess[0].style.display="block";
+        } else {
             zonePlus[0].style.display = "none";
             imgDroite[0].style.display="block";
             imgLess[0].style.display="none";
-        })
-    }
+        }
+    })
 
+    plus[1].addEventListener("click", () =>{
+        estOuvert2 = !estOuvert2;
+        if(estOuvert2){
+            zonePlus[1].style.display = "block";
+            imgDroite[1].style.display="none";
+            imgLess[1].style.display="block";
+        } else {
+            zonePlus[1].style.display = "none";
+            imgDroite[1].style.display="block";
+            imgLess[1].style.display="none";
+        }
+    })
 });
 
 
