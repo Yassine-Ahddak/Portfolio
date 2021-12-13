@@ -1,4 +1,4 @@
-
+console.log("OK");
 $(document).ready(function () {
 
     //Navbar sticky
