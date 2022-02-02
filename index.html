@@ -107,7 +107,7 @@
         <h2 class="titre2"><a href="#competences" >Présentation</a></h2>
         <div class="motivation">
             <p>Motivé, passionné par l'informatique depuis plusieurs années et curieux d'en apprendre
-                toujours plus. Je passe une partie de mon temps libre à monter en compétences à travers
+                toujours plus, je passe une partie de mon temps libre à monter en compétences à travers
                 divers projets. <br>
                 Afin de démontrer certaines compétences en développement Web (notamment HTML, CSS, JS, ReactJS, PHP),
                 je me suis lancé dans la réalisation de ce Portfolio et dans d'autres projets qui apparaîtront un
@@ -137,7 +137,7 @@
                         d’échecs avec la bibliothèque Swing.
                         <br>
                     </p>
-                    <a class="btnprojets" href="img/java-screen3.PNG" target="_blank">Afficher</a>
+                    <a id="myBtn" class="btnprojets">Afficher</a>
                     <a class="btnprojets" href="https://github.com/yas93/Jeu_Echec_Java" target="_blank">Code</a>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                         Projet universitaire consistant en la création d'un site web secondaire de la
                         Maison de La Culture du Japon à Paris axé sur la jeunesse.
                     </p>
-                    <a class="btnprojets" href="demo_site_web_maison_japon.mp4" target="_blank">Afficher</a>
+                    <a id="myBtn2" class="btnprojets">Afficher</a>
                     <a class="btnprojets" href="https://github.com/yas93/maison_japon" target="_blank">Code</a>
                 </div>
             </div>
@@ -161,7 +161,7 @@
                         <br><br>
                         <strong>2ème étape (facultative) :</strong> Réalisation d'une interface graphique grâce à Tkinter.
                     </p>
-                    <a class="btnprojets" href="img/python-screen1.PNG" target="_blank">Afficher</a>
+                    <a id="myBtn3" class="btnprojets">Afficher</a>
                     <a class="btnprojets" href="https://github.com/yas93/Jeu-d-chec" target="_blank">Code</a>
                 </div>
             </div>
@@ -172,7 +172,7 @@
                         Site Web personnel contenant mon portfolio ainsi que mon CV téléchargeable.
                         Il sera souvent modifié afin d'améliorer son design et son contenu, notamment les projets et compétences.
                     </p>
-                    <a class="btnprojets" href="https://yas93.github.io/YassinePortfolio/" target="_blank">Afficher</a>
+                    <a class="btnprojets" href="https://yassine-ahddak.github.io/YassinePortfolio/" target="_blank">Afficher</a>
                     <a class="btnprojets" href="https://github.com/yas93/YassinePortfolio" target="_blank">Code</a>
                 </div>
             </div>
@@ -212,6 +212,40 @@
             </div>
         </div>
     </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="img/java-screen3.PNG" alt="" width="1000" height="700"/>
+            <br/>
+            <p class="titre-projets">Java - Jeu d'échecs</p>
+        </div>
+    </div>
+    <!-- The Modal2 -->
+    <div id="myModal2" class="modal">
+        <!-- Modal2 content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <video width="900" height="600" controls>
+                <source src="demo_site_web_maison_japon.mp4">
+            </video>
+            <br/>
+            <p class="titre-projets">HTML | CSS - Site Web secondaire Maison de la Culture du Japon à Paris</p>
+        </div>
+    </div>
+    <!-- The Modal3 -->
+    <div id="myModal3" class="modal">
+        <!-- Modal3 content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="img/python-screen1.PNG" alt="" width="1000" height="700"/>
+            <br/>
+            <p class="titre-projets">Python - Jeu d'échecs</p>
+        </div>
+    </div>
+
+
 </section>
 
 <!-- Partie compétences -->
@@ -356,6 +390,34 @@
         </div>
     </div>
 </section>
+
+<section class="experiences" id="experiences">
+    <div class="max-width">
+        <h2 class="titre3"><a href="#experiences" >Mes expériences</a></h2>
+        <div class="liste_experiences">
+            <div class="dut_experiences">
+                <img src="img/graduation-cap.png" alt="" class="img_gauche">
+                <p>Développeur Full Stack, ADCOSOFT
+                    <br> <em>Martinique, 16 Août 2021 - 02 Septembre 2022</em>
+                </p>
+                <img src="img/plus.png" alt="" class="img_plus">
+                <img src="img/less.png" alt="" class="img_moins">
+            </div>
+            <div class="zone_plus">
+                <strong>Missions :</strong>
+                <ul class="missions">
+                    <li>Ajout de fonctionnalités sur l'intranet de l'entreprise (PHP, JS, XML, XLS)</li>
+                    <li>Création de chatbots en Botpress et intégration sur l'intranet</li>
+                    <li>Création de sites Web à l'aide du CMS Grav</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Ajouter une catégorie certification
     Coming soon !!!
