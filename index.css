@@ -457,13 +457,13 @@ section {
 .projets .close {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .projets .close:hover,
 .projets .close:focus {
-    color: #000;
+    color: var(--bleu-fonce);
     text-decoration: none;
     cursor: pointer;
 }
@@ -678,7 +678,7 @@ section {
 }
 
 .experiences{
-    background-color: var(--bleu-fonce);
+    background-color: var(--bleu-moyen);
 }
 .experiences .titre3{
     text-align: center;
@@ -703,7 +703,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bleu-moyen);
+    background-color: var(--bleu-fonce);
     color: whitesmoke;
     padding: 20px;
     margin: 15px;
