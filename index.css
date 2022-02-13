@@ -774,14 +774,16 @@ section {
     background-color: var(--bleu-moyen);
     padding: 10px;
     border-radius: 10px;
+    width: 100%;
 }
 
 .contact #form-contact form{
     padding: 10px;
 }
 
-.contact #form-contact #form-part2{
+.contact #form-contact #form-part2 input{
     width: 100%;
+    border: 2px solid red;
 
 }
 
