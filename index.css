@@ -750,6 +750,51 @@ section {
     margin-left: 20px;
 }
 
+
+/*===== Partie Contact =====*/
+.contact .max-width{
+    max-width: 700px;
+}
+
+.contact{
+    background-color: var(--bleu-fonce);
+}
+.contact .titre3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact h2 a{
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact #form-contact{
+    background-color: var(--bleu-moyen);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact #form-contact form{
+    padding: 10px;
+}
+
+.contact #form-contact #form-part2{
+    width: 100%;
+
+}
+
+.contact textarea, input, button{
+    margin: 15px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
 /* Responsivité */
 
 @media (max-width: 1450px) {

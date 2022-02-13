@@ -418,12 +418,19 @@
 <!-- Partie Contact -->
 <section class="contact" id="contact">
     <div class="max-width">
+        <h2 class="titre3"><a href="#experiences">Me contacter</a></h2>
         <div id="form-contact">
             <form action="https://formsubmit.co/yassine.ahddak@gmail.com" method="POST">
-                <input type="hidden" name="_subject" value="Nouvel email!">
-                <input type="email" name="email" placeholder="Adresse e-mail" required>
-                <input type="text" name="name" placeholder="Ecrivez votre message ici" required>
-
+                <div id="form-part1">
+                    <input type="text" name="name" placeholder="Nom">
+                    <input type="email" name="email" placeholder="Adresse e-mail" required>
+                </div>
+                <div id="form-part2">
+                    <input type="text" name="_subject" placeholder="Objet" required>
+                </div>
+                <div id="form-part3">
+                    <textarea class="field" placeholder="Ecrivez votre message ici" rows="7" cols="58" required></textarea>
+                </div>
                 <button type="submit">Envoyer</button>
             </form>
         </div>
