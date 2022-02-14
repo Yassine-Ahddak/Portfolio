@@ -789,13 +789,16 @@ section {
 }
 
 .contact #form-contact #form-part3 input{
-    width: 93%;
+    max-width: 93%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contact #form-contact button{
     width: 93%;
     background-color: lightseagreen;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .contact #form-contact button:hover{
@@ -803,9 +806,28 @@ section {
     background-color: transparent;
     color: lightseagreen;
     border-color: lightseagreen;
+    transform: scale(1.05);
 }
 
-.contact textarea, input, button{
+.contact textarea{
+    margin: 15px;
+    padding: 10px;
+    max-width: 93%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact input{
+    margin: 15px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button{
     margin: 15px;
     padding: 10px;
     max-width: 100%;
