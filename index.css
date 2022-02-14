@@ -780,11 +780,29 @@ section {
 .contact #form-contact form{
     padding: 10px;
 }
+.contact #form-contact #form-part1 input{
+    width: 43%;
+}
 
 .contact #form-contact #form-part2 input{
-    width: 100%;
-    border: 2px solid red;
+    width: 93%;
+}
 
+.contact #form-contact #form-part3 input{
+    width: 93%;
+}
+
+.contact #form-contact button{
+    width: 93%;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.contact #form-contact button:hover{
+    width: 93%;
+    background-color: transparent;
+    color: lightseagreen;
+    border-color: lightseagreen;
 }
 
 .contact textarea, input, button{
