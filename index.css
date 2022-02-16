@@ -912,6 +912,9 @@ section {
     .home .logo-reseaux p i{
         font-size: 2em;
     }
+    .home .logo-reseaux p #logo_skull{
+        font-size: 5em;
+    }
     .home .contenu .colonne-droite img{
         height: 239px;
         width: 260px;
