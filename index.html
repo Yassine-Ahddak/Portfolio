@@ -80,7 +80,7 @@
                         <div class="logo-reseaux">
                             <p><strong>Mon profil RootME :  </strong>
                                 <a href="https://www.root-me.org/ptikek?lang=fr#a33d9e59e960c4cf76688324403d4ebe" target="_blank">
-                                    <box-icon type='solid' name='skull' color="lightseagreen" id="logo_skull"></box-icon>
+                                    <box-icon type='solid' name='skull' color="lightseagreen"></box-icon>
                                 </a>
                             </p>
                         </div>
@@ -146,7 +146,7 @@
                         <br>
                     </p>
                     <a id="myBtn" class="btnprojets">Afficher</a>
-                    <a class="btnprojets" href="https://github.com/yas93/Jeu_Echec_Java" target="_blank">Code</a>
+                    <a class="btnprojets" href="https://github.com/yassine-ahddak/Jeu_Echec_Java" target="_blank">Code</a>
                 </div>
             </div>
             <div class="projet1">
@@ -157,7 +157,7 @@
                         Maison de La Culture du Japon à Paris axé sur la jeunesse.
                     </p>
                     <a id="myBtn2" class="btnprojets">Afficher</a>
-                    <a class="btnprojets" href="https://github.com/yas93/maison_japon" target="_blank">Code</a>
+                    <a class="btnprojets" href="https://github.com/yassine-ahddak/maison_japon" target="_blank">Code</a>
                 </div>
             </div>
             <div class="projet1">
@@ -170,7 +170,7 @@
                         <strong>2ème étape (facultative) :</strong> Réalisation d'une interface graphique grâce à Tkinter.
                     </p>
                     <a id="myBtn3" class="btnprojets">Afficher</a>
-                    <a class="btnprojets" href="https://github.com/yas93/Jeu-d-chec" target="_blank">Code</a>
+                    <a class="btnprojets" href="https://github.com/yassine-ahddak/Jeu-d-chec" target="_blank">Code</a>
                 </div>
             </div>
             <div class="projet1">
@@ -180,8 +180,8 @@
                         Site Web personnel contenant mon portfolio ainsi que mon CV téléchargeable.
                         Il sera souvent modifié afin d'améliorer son design et son contenu, notamment les projets et compétences.
                     </p>
-                    <a class="btnprojets" href="https://yassine-ahddak.github.io/YassinePortfolio/" target="_blank">Afficher</a>
-                    <a class="btnprojets" href="https://github.com/yas93/YassinePortfolio" target="_blank">Code</a>
+                    <a class="btnprojets" href="https://yassine-ahddak.github.io/Portfolio/" target="_blank">Afficher</a>
+                    <a class="btnprojets" href="https://github.com/yassine-ahddak/Portfolio" target="_blank">Code</a>
                 </div>
             </div>
             <div class="projet1">
@@ -192,8 +192,8 @@
                         Prochain ajout de fonctionnalités : - "PLAY/PAUSE" sur l'appui d'une touche du clavier
                                                             - Bouton "RESET" pour relancer une nouvelle partie
                     </p>
-                    <a class="btnprojets" href="img/snake.PNG" target="_blank">Afficher</a>
-                    <a class="btnprojets" href="https://github.com/yas93/Snake_Game" target="_blank">Code</a>
+                    <a id="myBtn4" class="btnprojets">Afficher</a>
+                    <a class="btnprojets" href="https://github.com/yassine-ahddak/Snake_Game" target="_blank">Code</a>
                 </div>
             </div>
             <div class="projet1">
@@ -205,7 +205,7 @@
                         des props et des hooks (useState et useEffect).
                     </p>
                     <a class="btnprojets" href="" target="_blank">Afficher</a>
-                    <a class="btnprojets" href="https://github.com/yas93/la-maison-jungle" target="_blank">Code</a>
+                    <a class="btnprojets" href="https://github.com/yassine-ahddak/la-maison-jungle" target="_blank">Code</a>
                 </div>
             </div>
             <div class="projet1">
@@ -228,6 +228,11 @@
             <img src="img/java-screen3.PNG" alt="" width="1000" height="700"/>
             <br/> <br/>
             <p class="titre-projets">Java - Jeu d'échecs</p>
+            <p class="description_modal">
+                <strong>Description :</strong> Projet universitaire dans le cadre du S2 en DUT Informatique visant à mettre
+                en pratique les compétences acquises en programmation orienté objet (POO).
+            </p>
+            <br/>
         </div>
     </div>
     <!-- The Modal2 -->
@@ -235,11 +240,19 @@
         <!-- Modal2 content -->
         <div class="modal-content">
             <span class="close">&times;</span>
-            <video width="900" height="600" controls>
-                <source src="demo_site_web_maison_japon.mp4">
-            </video>
+            <div class="container-video">
+                <video width="900" height="600" controls>
+                    <source src="demo_site_web_maison_japon.mp4">
+                </video>
+            </div>
             <br/> <br/>
             <p class="titre-projets">HTML | CSS - Site Web secondaire Maison de la Culture du Japon à Paris</p>
+            <p class="description_modal">
+                <strong>Description :</strong> Projet universitaire dans le cadre du S1 en DUT Informatique visant à mettre
+                en pratique les compétences acquises en programmation Web et ainsi laisser parler sa créativité tout en respectant
+                les normes de couleur.
+            </p>
+            <br/>
         </div>
     </div>
     <!-- The Modal3 -->
@@ -250,7 +263,27 @@
             <img src="img/python-screen1.PNG" alt="" width="1000" height="700"/>
             <br/> <br/>
             <p class="titre-projets">Python - Jeu d'échecs</p>
-            <p></p>
+            <p class="description_modal">
+                <strong>Description :</strong> Projet universitaire dans le cadre du S1 en DUT Informatique visant à mettre
+                en pratique les compétences acquises en Algorithmie, notamment la notion de boucles imbriquées.
+            </p>
+            <br/>
+        </div>
+    </div>
+    <!-- The Modal4 -->
+    <div id="myModal4" class="modal">
+        <!-- Modal3 content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <br/>
+            <img src="img/snake.PNG" alt=""/>
+            <br/> <br/>
+            <p class="titre-projets">Java (Swing) - Snake Game</p>
+            <p class="description_modal">
+                <strong>Description :</strong> Projet personnel réalisé en binôme qui m'a permis de travailler mes difficultées
+                en Java et ainsi mettre en avant ma compréhension de l'architecture MVC (Modèle-Vue-Contrôleur).
+            </p>
+            <br/>
         </div>
     </div>
 </section>
