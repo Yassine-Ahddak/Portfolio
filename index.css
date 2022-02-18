@@ -417,6 +417,7 @@ section {
     background-color: transparent;
     border-color: lightseagreen;
     color: lightseagreen;
+    cursor: pointer;
 }
 /*
 .projets .projet-carte img{
