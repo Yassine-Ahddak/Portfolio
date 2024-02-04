@@ -11,5 +11,7 @@
     <orderEntry type="library" name="boxicons" level="application" />
     <orderEntry type="library" name="a076d05399" level="application" />
     <orderEntry type="library" name="jquery-3.5.1" level="application" />
+    <orderEntry type="library" name="line" level="application" />
+    <orderEntry type="library" name="bfde4ad03b" level="application" />
   </component>
 </module>
