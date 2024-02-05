@@ -33,6 +33,8 @@ $(document).ready(function () {
     let estOuvert = false;
     let estOuvert2 = false;
     let estOuvert3 = false;
+    let estOuvert4 = false;
+    let estOuvert5 = false;
 
     plus_formation[0].addEventListener("click", () =>{
         estOuvert = !estOuvert;
@@ -60,7 +62,7 @@ $(document).ready(function () {
         }
     })
 
-    plus_experience[0].addEventListener("click", () =>{
+    plus_formation[2].addEventListener("click", () =>{
         estOuvert3 = !estOuvert3;
         if(estOuvert3){
             zonePlus[2].style.display = "block";
@@ -70,6 +72,32 @@ $(document).ready(function () {
             zonePlus[2].style.display = "none";
             imgDroite[2].style.display="block";
             imgLess[2].style.display="none";
+        }
+    })
+
+    plus_experience[0].addEventListener("click", () =>{
+        estOuvert4 = !estOuvert4;
+        if(estOuvert4){
+            zonePlus[3].style.display = "block";
+            imgDroite[3].style.display="none";
+            imgLess[3].style.display="block";
+        } else {
+            zonePlus[3].style.display = "none";
+            imgDroite[3].style.display="block";
+            imgLess[3].style.display="none";
+        }
+    })
+
+    plus_experience[1].addEventListener("click", () =>{
+        estOuvert5 = !estOuvert5;
+        if(estOuvert5){
+            zonePlus[4].style.display = "block";
+            imgDroite[4].style.display="none";
+            imgLess[4].style.display="block";
+        } else {
+            zonePlus[4].style.display = "none";
+            imgDroite[4].style.display="block";
+            imgLess[4].style.display="none";
         }
     })
 

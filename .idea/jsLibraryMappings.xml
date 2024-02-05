@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{a076d05399, bfde4ad03b, boxicons, jquery-3.5.1, line}" />
+    <file url="PROJECT" libraries="{bfde4ad03b, line}" />
   </component>
 </project>

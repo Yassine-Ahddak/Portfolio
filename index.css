@@ -765,6 +765,12 @@ section {
     margin-left: 20px;
 }
 
+.experiences .sous_missions{
+    list-style: square;
+    margin-left: 50px;
+}
+
+
 
 /*===== Partie Contact =====*/
 .contact .max-width{
